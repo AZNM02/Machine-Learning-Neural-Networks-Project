@@ -18,3 +18,9 @@
 - Run DigitClassificationModel.run() to return a batch_size by 10 node containing scores, where higher scores indicate a higher probability of a digit belonging to a particular class
 - Use dataset.get_validation_accuracy() to compute validation accuracy for model using validation data
 - To test the implementation, run the following: python autograder.py -q q3 
+
+## Language Identification
+- LanguageIDModel class in models.py
+- Neural Network that identifies the language for one word at a time
+- Dataset contains words in different languages
+- To test the implementation, run the following: python autograder.py -q q4
